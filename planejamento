@@ -1,0 +1,27 @@
+
+======================================================================================
+======== Aplicabilidade de redes neurais para cross-domain sentiment analysis ========
+======================================================================================
+
+TAREFAS:
+    - Identificar os estados da arte em CDSA
+
+
+
+EXPERIMENTOS:
+Treinar uma CNN em um domínio, testar em outro
+    OK 1. Achar um dataset multidomínio e tratar
+    OK 2. Achar uma CNN boa para treinar
+    OK 3. Tratar o dataset da Amazon para csv
+    4. Tentar rodar a CNN no primeiro dataset da Amazon
+
+>> Aplicar outras arquiteturas de redes neurais
+>>
+
+
+
+HIPÓTESES:
+Será que se eu treinar uma rede pra SA em um datset de um determinado domínio, como ela vai se sair ao tentar prever o sentimento de um datset deoutro domínio?
+Se forem diferentes, existe uma métrica de similaridade entre domínios?
+Pesquisar cross-domain sentiment analysis
+Se eu arranjar uma métrica de similaridade de cross domain, eu poderia plotar um grafo com a similaridade sendo as arestas
