@@ -12,6 +12,15 @@ from keras.callbacks import TensorBoard
 top_words = 10000
 (X_train, y_train), (X_test, y_test) = imdb.load_data(num_words=top_words)
 
+
+print(type(X_train))
+print(type(y_train))
+# print(y_train[0])
+
+stop
+#o formato inicial são as palavras representadas por índices
+
+
 # Pad the sequence to the same length
 max_review_length = 1600
 X_train = sequence.pad_sequences(X_train, maxlen=max_review_length)

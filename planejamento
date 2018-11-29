@@ -6,9 +6,15 @@
 TAREFAS:
     - Identificar os estados da arte em CDSA
     - Fazer o preprocessamento da apparel
-        - separar train test
-        -
-        - Pegar o lex.py e passar nele
+        OK - separar train test
+        OK - Pegar o lex.py e passar nele
+
+    - Passar a CNN nesse dataset
+        - Colocar no formato certo
+
+
+
+    - Redigir a documentação
         - Registrar o preprocessamento que eu fiz
 
 
