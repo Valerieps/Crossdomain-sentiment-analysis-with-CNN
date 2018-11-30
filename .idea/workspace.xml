@@ -2,14 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f31e680-3128-46e8-875a-552e97c5bedf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/neural-nets/cnn_source.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binary_test/results.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/apparel_all_treated.review" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/apparel_data.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/apparel_raw.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/apparel_treated.review" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/apparel_all.review" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/apparel_class.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/apparel_parsed_class_data.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/apparel_treated_class_data.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/apparel_treated_data.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/apparel_untreated_data.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/baby_all.review" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/computer_videogames_all.review" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/grocery_all.review" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/sports_all.review" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/stopwords" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/neural-nets/cnn_imdb_sa.py" beforeDir="false" afterPath="$PROJECT_DIR$/neural-nets/cnn_imdb_sa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neural-nets/cnn_reuters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/neural-nets/cnn_source.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/neural-nets/vanilla-topic-classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/neural-nets/vanilla-topic-classification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neural-nets/vanilla_reuters_topic.py" beforeDir="false" afterPath="$PROJECT_DIR$/neural-nets/vanilla_reuters_topic.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/planejamento" beforeDir="false" afterPath="$PROJECT_DIR$/planejamento" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/1_parse_xml.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/1_parse_xml.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,34 +37,38 @@
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="out" value="7" />
+          <entry key="DESKTOP-PKIN6P4" value="1" />
+          <entry key="out" value="20" />
           <entry key="planejamento" value="1" />
-          <entry key="py" value="9" />
-          <entry key="review" value="5" />
+          <entry key="py" value="25" />
+          <entry key="review" value="6" />
           <entry key="stopwords" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Python" value="9" />
+          <entry key="PLAIN_TEXT" value="29" />
+          <entry key="Python" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="planejamento" value="273" />
-          <entry key="py" value="3250" />
+          <entry key="out" value="80" />
+          <entry key="planejamento" value="972" />
+          <entry key="py" value="6813" />
+          <entry key="review" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="273" />
-          <entry key="Python" value="3250" />
+          <entry key="PLAIN_TEXT" value="1055" />
+          <entry key="Python" value="6813" />
         </counts>
       </usages-collector>
     </session>
@@ -61,26 +78,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/planejamento">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/neural-nets/cnn_imdb_sa.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-20">
-              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+            <state relative-caret-position="340">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/neural-nets/cnn_source.py">
+        <entry file="file://$PROJECT_DIR$/binary_test/results.out">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1120">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
+            <state relative-caret-position="255">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/binary_test/cnn_source.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/binary_test/target.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,9 +141,21 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/data/apparel_raw.out" />
-        <option value="$PROJECT_DIR$/planejamento" />
         <option value="$PROJECT_DIR$/neural-nets/cnn_imdb_sa.py" />
+        <option value="$PROJECT_DIR$/neural-nets/vanilla-topic-classification.py" />
+        <option value="$PROJECT_DIR$/neural-nets/vanilla_reuters_topic.py" />
+        <option value="$PROJECT_DIR$/preprocessing/shuffle.py" />
         <option value="$PROJECT_DIR$/neural-nets/cnn_source.py" />
+        <option value="$PROJECT_DIR$/data/baby_all.review" />
+        <option value="$PROJECT_DIR$/preprocessing/1_parse_xml.py" />
+        <option value="$PROJECT_DIR$/data/computer/computer_all.out" />
+        <option value="$PROJECT_DIR$/data/grocery/1-grocery_all.out" />
+        <option value="$PROJECT_DIR$/data/1_parse_xml.py" />
+        <option value="$PROJECT_DIR$/data/4_shuffle.py" />
+        <option value="$PROJECT_DIR$/binary_test/cnn_source.py" />
+        <option value="$PROJECT_DIR$/binary_test/target.py" />
+        <option value="$PROJECT_DIR$/planejamento" />
+        <option value="$PROJECT_DIR$/binary_test/results.out" />
       </list>
     </option>
   </component>
@@ -137,11 +181,6 @@
               <item name="cnn-crossdomain-sentiment-analysis" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cnn-crossdomain-sentiment-analysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cnn-crossdomain-sentiment-analysis" type="462c0819:PsiDirectoryNode" />
-              <item name="neural-nets" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -151,6 +190,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OneDrive\github\cnn-crossdomain-sentiment-analysis\data\baby" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -181,7 +225,7 @@
     <frame x="-7" y="-7" width="1358" height="824" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16795069" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20801233" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -232,9 +276,7 @@
     <entry file="file://$PROJECT_DIR$/data/stopwords">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/apparel_all_treated.review">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/apparel_all_treated.review" />
     <entry file="file://$PROJECT_DIR$/../../_NLP/Projeto_final/complete_data/sorted_data/apparel/all.review">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -242,75 +284,169 @@
     <entry file="file://$PROJECT_DIR$/data/out">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/apparel_data.out">
+    <entry file="file://$PROJECT_DIR$/data/apparel_data.out" />
+    <entry file="file://$PROJECT_DIR$/data/apparel_treated.review" />
+    <entry file="file://$PROJECT_DIR$/data/apparel_raw.out" />
+    <entry file="file://$PROJECT_DIR$/neural-nets/cnn_reuters.py" />
+    <entry file="file://$PROJECT_DIR$/neural-nets/imdb_cnn_kerasExample.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="-29">
+          <caret line="42" column="34" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/apparel_class.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neural-nets/cnn_imdb_sa.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        <state relative-caret-position="204">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/apparel_treated.review">
+    <entry file="file://$PROJECT_DIR$/neural-nets/vanilla-topic-classification.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" selection-start-line="9" selection-end-line="10" />
+        <state relative-caret-position="-18">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/apparel_raw.out">
+    <entry file="file://$PROJECT_DIR$/neural-nets/vanilla_reuters_topic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+        <state relative-caret-position="388">
+          <caret line="41" selection-start-line="41" selection-end-line="42" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/shuffle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/apparel_treated_class_data_shuffled.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binary_test/cnn_imdb_sa.py" />
+    <entry file="file://$PROJECT_DIR$/neural-nets/cnn_source.py" />
+    <entry file="file://$PROJECT_DIR$/binary_test/logs/events.out.tfevents.1543521759.DESKTOP-PKIN6P4">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing/1_parse_xml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/baby_all.review">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="144060" column="102" selection-start-line="144060" selection-start-column="101" selection-end-line="144060" selection-end-column="102" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/preprocessing/2_lex.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="37" />
+        <state relative-caret-position="306">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/baby/1-baby_all.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/baby/2-baby_parsed.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/baby/baby_aux.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/baby/baby_data.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/baby/4-baby_treated_class_data.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/2_lex.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/computer/computer_all.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="125219" column="2" selection-start-line="125219" selection-start-column="2" selection-end-line="125219" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/computer/1-computer_aux.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/computer/2-computer_parsed_class_data.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/grocery/1-grocery_all.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="95129" column="2" selection-start-line="95129" selection-start-column="2" selection-end-line="95129" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/computer/5-computer_shuffled_class_data.out">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/1_parse_xml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/4_shuffle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binary_test/cnn_source.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binary_test/target.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/planejamento">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        <state relative-caret-position="340">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/neural-nets/cnn_reuters.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-nets/imdb_cnn_kerasExample.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-nets/vanilla-topic-classification.py">
+    <entry file="file://$PROJECT_DIR$/binary_test/results.out">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-nets/cnn_imdb_sa.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neural-nets/cnn_source.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1120">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        <state relative-caret-position="255">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
         </state>
       </provider>
     </entry>

@@ -20,8 +20,13 @@ print('Loading data...')
 print(len(x_train), 'train sequences')
 print(len(x_test), 'test sequences')
 
-num_classes = np.max(y_train) + 1
+# num_classes = np.max(y_train) + 1
+num_classes = 46
+print(np.max(y_train), 'maximo')
+print(np.min(y_train), 'minimo')
 print(num_classes, 'classes')
+
+
 
 print('Vectorizing sequence data...')
 tokenizer = Tokenizer(num_words=max_words)
@@ -36,6 +41,7 @@ y_train = keras.utils.to_categorical(y_train, num_classes)
 y_test = keras.utils.to_categorical(y_test, num_classes)
 print('y_train shape:', y_train.shape)
 print('y_test shape:', y_test.shape)
+
 
 print('Building model...')
 model = Sequential()

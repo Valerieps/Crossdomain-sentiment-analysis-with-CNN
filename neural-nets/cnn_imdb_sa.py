@@ -15,10 +15,7 @@ top_words = 10000
 
 print(type(X_train))
 print(type(y_train))
-# print(y_train[0])
-
-stop
-#o formato inicial são as palavras representadas por índices
+print(y_train[:10])
 
 
 # Pad the sequence to the same length

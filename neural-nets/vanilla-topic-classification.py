@@ -18,22 +18,16 @@ for i, sentence in enumerate(x_train):
 print(dim)
 
 
-# stop
 num_classes = max(y_train)+1
 tokenizer = Tokenizer(num_words=dim)
+
+
 x_train = tokenizer.sequences_to_matrix(x_train, mode='binary')
 x_test = tokenizer.sequences_to_matrix(x_test, mode='binary')
 
 y_train = keras.utils.to_categorical(y_train, num_classes)
 y_test = keras.utils.to_categorical(y_test, num_classes)
 
-
-# tam_train = len(x_train[0])
-# tam_test = len(x_test[0])
-
-#========TREAT INPUT=======
-
-# print(num_words)
 
 #========INSPECTION=======
 # print(x_train[0][0])

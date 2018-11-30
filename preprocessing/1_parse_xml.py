@@ -1,14 +1,18 @@
 import xml.etree.ElementTree as ET
 import string
 
+# 1. Incluir a tag mãe
+
+
+
 #treat file
 
-intab = "&"
-outtab = " "
+intab = "&�"
+outtab = "   "
 
-output = open('data/sorted_data/apparel/all_treated.review', 'w')
+output = open('sports/1-aux.out', 'w', encoding = 'ISO-8859-1')
 
-with open('data/sorted_data/apparel/all.review', 'r') as file:
+with open('sports/1-sports_all.out', 'r', encoding = "ISO-8859-1") as file:
     for line in file:
         aux = line.translate({ord(x): y for (x, y) in zip(intab, outtab)})
         aux = " ".join(aux.split())
@@ -25,8 +29,7 @@ outtab = "                                "
 intab2 = '"'
 outtab2 = ' '
 
-# reviews = ET.parse('data/sorted_data/apparel/test_xml.review')
-reviews = ET.parse('data/sorted_data/apparel/all_treated.review')
+reviews = ET.parse('sports/1-aux.out')
 
 fields = ['rating','title','review_text']
 
