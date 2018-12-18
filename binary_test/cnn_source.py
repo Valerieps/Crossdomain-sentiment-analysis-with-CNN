@@ -7,8 +7,8 @@ from keras.layers.embeddings import Embedding
 from keras.callbacks import TensorBoard
 
 '''
-    CNN for sentiment analysis on Amazon multi-domain dataset
-    Designed and normalized to work with cross-domain SA
+    Convolutional Neural Network 
+    designed for cross-domain sentiment analysis on Amazon multi-domain dataset
     by vesperM
     
 '''
@@ -28,8 +28,9 @@ with open(input_file, 'r') as file:
         words = data.split(' ')
         x_all.append(words)
 
+# Inspection
 # print(y_all[0])
-# print(type(x_all)) #x_all é uma lista de listas-de-palavras
+# print(type(x_all))
 # print(len(x_all))
 # print(len(x_all[0]))
 
@@ -43,31 +44,24 @@ for item in y_all:
     if item == '4' or item == '5':
         y_all_binary.append(1)
 
+# Inspection
 # print(y_all[:10])
 # print(y_all_binary[:10])
 # print(len(y_all))
 # print(len(y_all_binary))
-#
-# print(max(y_all_binary), 'maximo')
-# print(min(y_all_binary), 'minimo')
-
-# stop
 
 
 # ==================== LEMMATIZATION ==============================
 
 lemmatizer = WordNetLemmatizer()
 
-# print(x_all[0])
 for i, sentence in enumerate(x_all):
     for j, word in enumerate(sentence):
         word2 = lemmatizer.lemmatize(word)
         x_all[i][j] = word2
-# print(x_all[0])
 
 
 # ==================== PADDING ==============================
-# Normaliza tudo pra tamanho 400
 
 maior = 400
 
@@ -81,6 +75,7 @@ for sentence in x_all:
         for i in range(tam):
             del sentence[-1]
 
+# Inspection
 # confere = True
 # for sentence in x_all:
 #     if len(sentence)==maior:
@@ -98,8 +93,6 @@ for item in x_all:
     counter.update(item)
 
 counter = counter.most_common(most_freq_words)
-# print(counter)
-# print(type(counter))
 
 vocab, freqs = zip(*counter)
 vocab = list(vocab)
@@ -107,23 +100,21 @@ vocab.append('OOV')
 vocab.sort()
 tam_vocab = len(vocab)
 
+# Inspection
+# print(counter)
+# print(type(counter))
 # print(vocab)
 
 
-# ==================== SUBSTITUIR OOV ==============================
-# agora, preciso pegar x_all e trocar todas as que não aparecerem em counter
-# posso usar essa fase aqui pra
-
+# ==================== REPLACE OOV ==============================
 for i, sentence in enumerate(x_all):
     for j, word in enumerate(sentence):
         if word not in vocab:
             x_all[i][j] = 'OOV'
 
 
-# stop
 
-
-# ==================== CRIAR WORD INDEX ==============================
+# ==================== CREATE WORD INDEX ==============================
 
 word2index = {}
 
@@ -131,18 +122,16 @@ for i, item in enumerate(vocab):
     word2index[item] = i
 # print(word2index)
 
-# ==================== CODIFICAR PALAVRAS ==============================
+# ==================== ENCODE WORDS ==============================
 x_all_coded = []
 for sentence in x_all:
     lista_coded = []
     for word in sentence:
-        # buscar o indice da palavra e substituir
-        # fazer append numa outra lista
         aux = word2index[word]
         lista_coded.append(aux)
     x_all_coded.append(lista_coded)
 
-# ==================== DIVIDIR EM TRAIN TEST ==============================
+# ==================== SPLIT TRAIN /EST ==============================
 
 prop_train = int(len(x_all_coded) * 0.8)
 
@@ -152,6 +141,7 @@ x_test = x_all_coded[prop_train + 1:]
 y_train = y_all_binary[:prop_train]
 y_test = y_all_binary[prop_train + 1:]
 
+# Inspection
 # print('x train', len(x_train))
 # print('x teste', len(x_test))
 # print('y train', len(y_train))
@@ -172,7 +162,7 @@ y_test = np.array(y_test)
 # print(y_train[0])
 
 
-# ==================== MODELO ==============================
+# ==================== NEURAL NETWORK MODEL ==============================
 
 epochs = 5
 batch = 64
